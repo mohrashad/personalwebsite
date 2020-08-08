@@ -1,0 +1,285 @@
+/* media query for 340px screen or less than */
+@media (max-width: 340px){
+    .fa-3x {
+        font-size: 1.5em;
+    }
+
+    .h1-title {
+        font: normal bold 28px/40px var(--font);
+    }
+
+    header .banner .site-title{
+        padding: 0;
+    }
+    header .banner .site-title h1{
+        font-size: 41px;
+    }
+    header .banner .site-title h4{
+        font-size: 1.5rem;
+    }
+
+    .about .about-title span{
+        font: normal bold 33px/56px var(--font);
+        letter-spacing: 14px;
+    }
+
+    .brand .experience .call {
+        padding-left: 7.5rem;
+    }
+
+    .brand .experience .bg-panel{
+        height: 400px;
+        width: 220px;
+        margin-left: 300px;
+    }
+
+    .services .service-title {
+        width: 19rem;
+    }
+
+    .services .service-title{
+        padding: 2%;
+    }
+
+    .services .service-content {
+        margin: 8% 0;
+    }
+
+    .our-work .button-group button + button {
+        padding-left: 0;
+    }
+
+    .client-say .client-say-title p {
+        padding: 1rem 0rem;
+    }
+
+    .subscribe .subs {
+        background-position: 24% 45%;
+    }
+
+    .subscribe .subs .scribe{
+        margin: 0;
+    }
+
+    .subscribe .subs .subscribe-title,
+    .subscribe .subs .subscribe-title h4,
+    .services,
+    .subscribe .subs{
+        padding: 2%;
+        margin: 0;
+    }
+
+    .subscribe .subs .subscribe-title p{
+        padding: 3% 2%;
+    }
+
+    .subscribe .subs .subscribe-title h4 {
+        color: whitesmoke;
+        font: normal 700 18px/30px var(--font);
+    }
+
+    .subscribe .subs form .input-text input{
+        width: 15rem;
+        padding: 1.5rem 1rem;
+        margin-bottom: 10px;
+        font: normal 500 17px/20px var(--font);
+        margin-left: 21px;
+    }
+
+    .subscribe .subs .subs-button{
+        padding: 0 1.5rem;
+    }
+
+    .subscribe .subs form .btn-submit button {
+        margin-left: 8%;
+    }
+
+    footer .footer-logo{
+        padding-top: 8rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    footer .social a > i{
+        padding: 1rem;
+    }
+
+    footer .copyright p{
+        line-height: 2.3;
+    }
+}
+
+/* media query from 341px to 380px */
+@media (min-width: 341px) and (max-width: 380px){
+    .h1-title {
+        font: normal bold 28px/40px var(--font);
+    }
+
+    p.p-content {
+        font: normal 500 14px/25px var(--font);
+    }
+
+    header .banner .site-title h1 {
+        font-size: 2.4rem;
+    }
+
+    .about .about-title span {
+        font: normal bold 37px/60px var(--font);
+        letter-spacing: 15px;
+    }
+
+    .brand .experience .call {
+        padding-left: 5rem;
+    }
+
+    .brand .experience .bg-panel{
+        width: 270px;
+        margin-left: 250px;
+    }
+
+    .services .service-content {
+        margin: 15% 0;
+    }
+
+    .services .service-title {
+        padding: 0 1rem;
+    }
+
+    .our-work .button-group button + button {
+        padding-left: 0rem;
+    }
+
+    .client-say .client-say-title p {
+        padding: 1rem 0rem;
+    }
+
+    .subscribe .subs .scribe{
+        margin: 0;
+    }
+
+    .subscribe .subs .subscribe-title h4 {
+        font: normal 700 24px/30px var(--font);
+    }
+
+    .subscribe .subs .subscribe-title p {
+        padding: 1rem 2rem;
+    }
+
+    .subscribe .subs form .input-text input {
+        width: 279px;
+        margin-left: 2.3rem;
+    }
+
+    .subscribe .subs form .btn-submit button {
+        margin-left: 19%;
+    }
+
+    footer .footer-logo{
+        padding-top: 4.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    footer .social a > i {
+        padding: 1rem;
+    }
+}
+
+/* media query from 381px to 576px */
+@media (min-width: 381px) and (max-width: 575px){
+    .h1-title {
+        font: normal bold 33px/40px var(--font);
+    }
+
+    header .banner .site-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .about .about-title span {
+        font: normal bold 43px/60px var(--font);
+        letter-spacing: 18px;
+    }
+
+    .brand .experience .bg-panel {
+        width: 314px;
+        margin-left: 245px;
+    }
+
+    .brand .experience .call {
+        padding-left: 6rem;
+    }
+
+    .services .service-title {
+        padding: 0 1rem;
+    }
+
+    .our-work .button-group button + button {
+        padding-left: 0.6rem;
+    }
+
+    .client-say .client-say-title p {
+        padding: 1rem 0rem;
+    }
+
+    .subscribe .subs .subscribe-title h4 {
+        font: normal 700 27px/30px var(--font);
+    }
+    .subscribe .subs .subscribe-title p {
+        padding: 1rem 2rem;
+    }
+
+    .subscribe .subs form .input-text input{
+        width: 324px;
+        margin-left: 15%;
+    }
+
+    .subscribe .subs .scribe{
+        margin-right: 0;
+    }
+
+    .subscribe .subs form .btn-submit button {
+        margin-left: 15%;
+    }
+
+    footer .footer-logo{
+        padding-top: 3rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    footer .social a > i {
+        padding: 1rem;
+    }
+}
+
+/* media query from 576px to 767px */
+@media (min-width: 576px) and (max-width: 767px){
+    .services .service-title {
+        padding: 0 4rem;
+    }
+
+    .services .service-content {
+        margin: 6% 2%;
+    }
+
+    .client-say .client-say-title p {
+        padding: 1rem 2rem;
+    }
+
+    .subscribe .subs form .input-text input,
+    .subscribe .subs form .btn-submit button {
+        margin-left: 28%;
+    }
+}
+
+/* media query from 576px to 767px */
+@media (min-width: 768px) and (max-width: 991px){
+    .subscribe .subs-button{
+        flex-basis: auto;
+    }
+}
+
+/* media query from 992px to higher */
+@media (min-width: 992px){
+    .subscribe .subs-button{
+        flex-basis: 1;
+    }
+}
+
